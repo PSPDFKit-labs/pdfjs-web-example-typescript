@@ -1,9 +1,5 @@
 import * as pdfjsLib from "pdfjs-dist";
 
-// The workerSrc property shall be specified.
-// pdfjsLib.GlobalWorkerOptions.workerSrc =
-//   "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.13.216/build/pdf.min.js";
-
 (async () => {
   const loadingTask = pdfjsLib.getDocument("example.pdf");
   const pdf = await loadingTask.promise;
