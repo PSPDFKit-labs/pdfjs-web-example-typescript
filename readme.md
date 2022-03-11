@@ -1,4 +1,4 @@
-# PDF.js Typescript
+# PDF.js TypeScript
 
 This repository is an example of how to build a TypeScript PDF viewer with [PDF.js](https://mozilla.github.io/pdf.js/).
 
@@ -12,7 +12,7 @@ You can read about the example project in our [blog post](https://pspdfkit.com/b
 ## Getting Started
 
 ```bash
-git clone https://github.com/PSPDFKit-labs/pdfjs-web-example-typescript.git
+git clone https://github.com/PSPDFKit-labs/pdfjs-web-example-typescript.git 
 cd pdfjs-web-example-typescript
 ```
 
