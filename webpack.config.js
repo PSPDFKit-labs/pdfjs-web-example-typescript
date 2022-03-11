@@ -30,7 +30,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
-    // Copy the WASM/ASM and CSS files to the `output.path`.
+    // Copy the PDF file and PDF.js worker to the output path.
     new CopyWebpackPlugin({
       patterns: [
         {
