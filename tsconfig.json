@@ -1,17 +1,18 @@
+
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "es6",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "strictNullChecks": false,
-    "moduleResolution": "node"
-  },
-  "include": ["src/**/*"]
+	"compilerOptions": {
+		"target": "es6",
+		"module": "es6",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"strictNullChecks": false,
+		"moduleResolution": "node"
+	},
+	"include": ["src/**/*"]
 }

@@ -1,5 +1,7 @@
 import * as pdfjsLib from "pdfjs-dist";
 
+pdfjsLib.GlobalWorkerOptions.workerSrc = './main.worker.js';
+
 (async () => {
   const loadingTask = pdfjsLib.getDocument("example.pdf");
   const pdf = await loadingTask.promise;
